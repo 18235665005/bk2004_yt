@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 默认间距清除 */
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, input, button, p {
+  margin: 0;
+  padding: 0; }
+
+/* a的下划线 */
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+/* 列表小点清除 */
+li {
+  list-style: none; }
+
+/* 清除input和button默认带的边框和点击之后的边框 */
+input, button {
+  border: 0;
+  outline: none; }
+
+/* 浏览器解析所有<img/>的时候，都会向下多解析3像素 */
+img {
+  /* display:block;方法1 转换成块元素*/
+  vertical-align: top;
+  /* 垂直靠上对齐 */ }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+img {
+  border: 0px; }
+
+i, em, b, strong {
+  font-weight: normal;
+  font-style: normal; }

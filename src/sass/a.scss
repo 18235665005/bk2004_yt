@@ -1,0 +1,516 @@
+.center{
+   width: 1240px;
+   margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #414141;
+    border-bottom: black 1px;
+    box-shadow:inset 0px 0px 10px black;
+    overflow: hidden;   
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../assets/zt/iconfont.eot');
+    src: url('../assets/zt/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../assets/zt/iconfont.woff2') format('woff2'),
+        url('../assets/zt/iconfont.woff') format('woff'),
+        url('../assets/zt/iconfont.ttf') format('truetype'),
+        url('../assets/zt/iconfont.svg#iconfont') format('svg');
+  } 
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.head{
+    height: 40px;    
+}
+
+.header div a:nth-of-type(1){
+    font-weight: 500;
+    color: #fff;
+}
+.header div a:nth-of-type(2){
+    color: #8e8e8e;
+}
+.head a {
+    float: left;
+    font-size: 16px;
+    width:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    float: left;
+    color: #fff;
+    background-color:#414141;
+}
+.head p {
+    height: 100%;
+    line-height: 40px;
+    float: right;
+    color: aliceblue;
+    i {
+        width: 30px;
+    }
+}
+
+// .off{
+//     display: block;
+// }
+
+.head p span{
+    float: right;
+    line-height: 40px;
+    padding:0px 10px;
+    height: 24px;
+    color: snow;
+    // border-right: snow 1px solid;
+}
+
+.logo{
+    background-color: #414141;
+    color: #fff;
+    font-size: 30px;
+	line-height: 80px;
+	padding-left: 650px;
+	padding-top: 40px;
+	box-sizing: border-box;
+    // clear: both;
+    // overflow: hidden;	
+}
+
+
+
+
+
+// 导航
+// .nav{
+//     height: 40px;
+//     line-height: 40px;
+//     display: flex;
+//     justify-content: center;
+//     background-color:#414141;
+//     color: #fff;
+// }
+// .nav ul li{
+//     float: left;
+//     padding: 0px 20px;
+// }
+
+// .nav ul li:hovre {
+//     background-color: #fff;
+//     color: black;
+// }
+
+#bgone{
+	position: sticky;
+	top: 0;
+	z-index: 6;
+	height: 45px;
+	background-color: #414141;
+}
+#nav{
+	height: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+#nav ul li{
+	
+	float: left;
+	width: 165px;
+	height: 45px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+}
+
+#nav ul li img { 
+	float: right;
+	margin-top: 17px;
+}
+#nav ul li #img { 
+	float: left;
+	margin-top: 17px;
+}
+/* #nav ul #li1{background: url(img/navxt.jpg) no-repeat left 17px;} */
+#nav ul li a{
+	display: block;
+	height: 45px;
+	/* background-color: #C7000B; */
+	font-size: 18px;
+	
+}
+#nav  div{
+	width:1002px ;
+	height: 379px;
+}
+
+/* 二级导航大白主体 */
+#nav li .write {
+	width:1240px ;
+	margin-top: 0px;
+	padding: 0px 18px 19px 18px;
+	box-sizing: border-box;	
+	height:344px ;
+	background-color: white;
+}
+/* 大白主体顶部盒子 */
+#nav li .write .wtop{
+    width: 963px;
+	height: 53px;
+	border-bottom:1px #e4e4e4 solid ;
+	margin-bottom: 10px;
+	
+}
+#nav li .write h2{
+	margin-top: 27px;
+	margin-left: 256px;
+	float: left;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+#nav li .write h3{
+	margin-top: 27px;
+	margin-left: 232px;
+	float: left;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 400;
+	
+}
+/* 大白主体left盒子 */
+#nav li .write .wleft{
+	border-right:1px #e5e5e5 solid ;
+	float: left;
+	width:430px;
+	height: 261px;
+} 
+#nav li .write .wleft ul {
+	float: left;
+	margin-top: 15px;
+	width: 140px;
+	height: 216px;
+}
+#nav li .write .wleft ul li{
+	/* margin-bottom: 3px; */
+	width: 140px;
+}
+#nav li .write .wleft ul li a{
+	line-height: 13px;
+	border-left: 3px #cb0008 solid;
+	background-color: white;
+	width: 130px;
+	height: 13px;
+	font-size: 13px;
+	color: #0c131b;
+}
+#nav li .write .wleft #ultw li a{
+	border: none;
+	float:left;
+	text-align: left;
+}
+#nav li .write .wleft #ulth li a{
+	border: none;
+	float:left;
+	text-align: left;}
+/* 大白主体right盒子 */
+#nav li .write .wright{
+	float: right;
+	width: 534px;
+	height: 261px;
+	
+} 
+
+#nav li .write .wright img{
+	margin-top:10px ;
+	float: left;
+	margin-right: 30px;
+	width:500px;
+	height: 250px;
+}
+
+/* 二级导航最大盒子开关 */
+#nav21{
+	display: none;
+	margin-left: -125px;
+
+}
+
+/* 存款与代款 */
+#nav22{ margin-left:-290px ;
+display: none;}
+/* 信用卡 */
+#nav23{ margin-left: -455px;
+display: none;}
+/* 投资理财 */
+#nav24{ margin-left: -620px;
+display: none;}
+/* 私人银行 */
+#nav25{ margin-left: -785px;
+
+display: none;}
+#nav #nav25 .write  ul li{
+	height: 37px;
+
+}
+/* 金融服务 */
+#nav26{ margin-left: -950px;
+display: none;}
+
+
+/* 鼠标悬停 */
+#nav ul li a:hover{
+    background-color:#fff;
+    color: black;
+}
+#nav ul li:hover #nav21{
+	display: block;
+	z-index: 3;
+	position: relative;
+	
+}
+#nav ul li:hover #nav22{
+	display: block;
+	z-index: 3;
+	position: relative;
+}
+#nav ul li:hover #nav23{
+	display: block;
+	z-index: 3;
+	position: relative;
+}
+#nav ul li:hover #nav24{
+	display: block;
+	z-index: 3;
+	position: relative;
+}
+#nav ul li:hover #nav25{
+	display: block;
+	z-index: 3;
+	position: relative;
+}
+#nav ul li:hover #nav26{
+	display: block;
+	z-index: 3;
+	position: relative;
+}
+
+#nav ul li #nav21 a:hover{
+	color: red;
+}
+#nav ul li #nav22 a:hover{
+	color: red;
+}
+#nav ul li #nav23 a:hover{
+	color: red;
+}
+#nav ul li #nav24 a:hover{
+	color: red;
+}
+#nav ul li #nav25 a:hover{
+	color: red;
+}
+#nav ul li #nav26 a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 轮播图
+.swiper-container {
+    width: 1240px;
+    height: 450px;
+  }
+
+// .swiper-button-prev, .swiper-button-next{
+//     color: darkgrey;
+// }
+
+.body{
+display: flex;
+ > div {
+     flex: 1;
+ }
+}
+.tupian{
+   cursor: pointer;
+}
+
+
+
+
+
+// 尾部
+.foo{ background: #222222;
+			
+}
+.foo .foot{
+    height: 214px;
+}
+.foot   ul {
+    float: left;
+/* 	background-color: pink; */
+    margin: 35px 60px 0px 0px;
+    overflow: hidden;
+}
+.foot   ul li{
+    font-size: 16px;
+    color: #999999;
+    line-height: 24px;
+    height: 24px;
+}
+.foot ul .li{
+    margin-bottom: 24px;
+    color: white;
+}
+
+.foot dl{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 17px;
+    height: 17px;
+    text-align: center;
+}
+.foot dt img{
+    width: 150px;
+    height: 150px;
+}
+.foot dd{
+    color: #fff;
+}
+.foot p{
+    margin-top: 60px;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+}
+
+// 悬停
+// 登录
+// .spa1{
+//     position:relative;
+//     display: block;
+
+// }
+// .spa1 a{
+//     padding-top: 5px;
+//     display: block;
+//     background-color: #fff;
+//     width: 200px;
+//     height:115px;
+//     position: absolute;
+//     top: 35px;
+//     left: -75px;
+    
+//     z-index: 55;
+//     padding-left: 10px;
+//     // background: url(../images/123.jpg) no-repeat 25px 30px;
+// }
+
+.header .head .loing{
+    display:block;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 0px;
+}
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+// 搜索引擎
+.box{
+	float: right;
+}
+
+.box {
+	width: 400px;
+	height: 40px;
+	display: flex;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 100px;
+  }
+
+  input {
+	border: none;
+	outline: none;
+	width: 70%;
+	box-sizing: border-box;
+	padding-left: 20px;
+	font-size: 30px;
+  }
+
+  button {
+	border: none;
+	outline: none;
+	flex: 1;
+	background-color: #999999;
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+  }
+
+  .sou {
+	position: absolute;
+	top: 100%;
+	left: -3px;
+	width: calc(100% + 6px);
+	padding: 20px;
+	box-sizing: border-box;
+	display: none;
+	z-index: 999;
+  }
+
+  .sou.active {
+	display: block;
+  }
+
+  .sou > li {
+	list-style: none;
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	line-height: 30px;
+	cursor: pointer;
+  }
+
+  .sou > li:hover {
+	background-color: #ccc;
+	color: #fff;
+  }

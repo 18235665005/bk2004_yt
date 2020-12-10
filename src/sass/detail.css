@@ -1,0 +1,260 @@
+.center {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #414141;
+  border-bottom: black 1px;
+  box-shadow: inset 0px 0px 10px black;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../assets/zt/iconfont.eot");
+  src: url("../assets/zt/iconfont.eot?#iefix") format("embedded-opentype"), url("../assets/zt/iconfont.woff2") format("woff2"), url("../assets/zt/iconfont.woff") format("woff"), url("../assets/zt/iconfont.ttf") format("truetype"), url("../assets/zt/iconfont.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.head {
+  height: 40px;
+}
+
+.header div a:nth-of-type(1) {
+  font-weight: 500;
+  color: #fff;
+}
+
+.header div a:nth-of-type(2) {
+  color: #8e8e8e;
+}
+
+.head a {
+  float: left;
+  font-size: 16px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  float: left;
+  color: #fff;
+  background-color: #414141;
+}
+
+.head p {
+  float: right;
+}
+.head p a {
+  margin-top: 8px;
+  width: 40px;
+  height: 20px;
+}
+
+.head p span {
+  color: snow;
+}
+
+.logo {
+  background-color: #414141;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.foo {
+  background: #222222;
+}
+
+.foo .foot {
+  height: 214px;
+}
+
+.foot ul {
+  float: left;
+  /* 	background-color: pink; */
+  margin: 35px 60px 0px 0px;
+  overflow: hidden;
+}
+
+.foot ul li {
+  font-size: 16px;
+  color: #999999;
+  line-height: 24px;
+  height: 24px;
+}
+
+.foot ul .li {
+  margin-bottom: 24px;
+  color: white;
+}
+
+.foot dl {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 12px;
+  line-height: 17px;
+  height: 17px;
+  text-align: center;
+}
+
+.foot dt img {
+  width: 150px;
+  height: 150px;
+}
+
+.foot dd {
+  color: #fff;
+}
+
+.foot p {
+  margin-top: 60px;
+  float: right;
+  color: #fff;
+  font-size: 16px;
+}
+
+.show img {
+  width: 450px;
+  height: 450px;
+}
+
+.enlargeBox img {
+  width: 400px;
+  height: 500px;
+}
+
+a, a:hover, a:active, a:link, a:target {
+  text-decoration: none;
+}
+
+.show img {
+  width: 398px;
+  height: 100%;
+  display: block;
+}
+
+.active img {
+  width: 100%;
+  height: 100%;
+}
+
+.goodInfo h1 {
+  color: #8e8e8e;
+  font-size: 18px;
+}
+
+.btn-success {
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-warning {
+  background-color: #333;
+  color: #333;
+}
+
+.goodsInfo .num {
+  border: 1px #333 solid;
+  width: 120px;
+  height: 45px;
+}
+
+.content {
+  margin: 30px auto;
+}
+
+.goodsDetail {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.goodsDetail > .enlargeBox {
+  width: 400px;
+  height: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333;
+}
+
+.goodsDetail > .enlargeBox > .show {
+  width: 400px;
+  height: 400px;
+  border-bottom: 1px solid #333;
+}
+
+.goodsDetail > .enlargeBox > .list {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.goodsDetail > .enlargeBox > .list > p {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.goodsDetail > .enlargeBox > .list > p.active {
+  border-color: #333;
+}
+
+.goodsDetail > .goodsInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.goodsDetail > .goodsInfo > .desc {
+  font-size: 30px;
+}
+
+.goodsDetail > .goodsInfo > .price {
+  font-size: 20px;
+}
+
+.goodsDetail > .goodsInfo > .price > span {
+  font-size: 30px;
+}
+
+.goodsDetail > .goodsInfo > .num {
+  display: flex;
+}
+
+.goodsDetail > .goodsInfo > .num > button {
+  width: 40px;
+  height: 100%;
+}
+
+.goodsDetail > .goodsInfo > .num > input {
+  height: 100%;
+  width: 75px;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+
+.goodsNav {
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=detail.css.map */

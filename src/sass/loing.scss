@@ -1,0 +1,248 @@
+// 头部
+
+.off{
+    display: block;
+}
+.center{
+    width: 1240px;
+    margin: 0 auto;
+ }
+ .body{
+     width: 100%;
+ }
+ .header{
+     width: 100%;
+     height: 40px;
+     background-color: #414141;
+     border-bottom: black 1px;
+     box-shadow:inset 0px 0px 10px black;
+     // overflow: hidden;
+ }
+ @font-face {
+     font-family: 'iconfont';
+     src: url('../assets/zt/iconfont.eot');
+     src: url('../assets/zt/iconfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/zt/iconfont.woff2') format('woff2'),
+         url('../assets/zt/iconfont.woff') format('woff'),
+         url('../assets/zt/iconfont.ttf') format('truetype'),
+         url('../assets/zt/iconfont.svg#iconfont') format('svg');
+   } 
+ 
+   .iconfont {
+     font-family: "iconfont" !important;
+     font-size: 16px;
+     font-style: normal;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   }
+ .head{
+     height: 40px;    
+ }
+ .header div a:nth-of-type(1){
+     font-weight: 500;
+     color: #fff;
+ }
+ .header div a:nth-of-type(2){
+     color: #8e8e8e;
+ }
+ .head a {
+     float: left;
+     font-size: 16px;
+     width:100px ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     float: left;
+     color: #fff;
+     background-color:#414141;
+ }
+ .head p {
+     float: right;
+     padding-top:8px ;  
+ }
+ 
+ .head p span{
+     display: block;
+     float: right;
+     line-height: 24px;
+     padding:0px 10px;
+     height: 24px;
+     color: snow;
+    //  border-right: snow 1px solid;
+ }
+ .header .head p .gouwu{
+     display: block;
+     width: 0px;
+ }
+ 
+ .logo{
+     background-color: #414141;
+     color: #fff;
+     font-size: 30px;
+    //  padding-left: 250px;
+     text-align: center;
+     line-height: 80px;
+     // clear: both;
+     // overflow: hidden;
+ }
+
+ .header .head .loing{
+    display:block;
+    margin-right: 10px;
+    margin-top: 2px;
+    width: 0px;
+}
+ // 导航
+ .nav{
+     height: 40px;
+     line-height: 40px;
+     display: flex;
+     justify-content: center;
+     background-color:#414141;
+     color: #fff;
+ }
+ .nav ul li{
+     float: left;
+     padding: 0px 20px;
+ }
+ 
+ .nav ul li:hovre {
+     background-color: #fff;
+     color: black;
+ }
+ 
+
+
+
+
+
+
+
+
+
+//  身体
+.body img{
+    width: 100%;
+}
+
+.body{
+    position: relative;
+
+}
+.inp{
+    padding: 45px 0px 0px 0px;
+    position: absolute;
+    top: 100px;
+    left: 930px;
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+}
+
+
+.inp form input{
+    margin-bottom: 40px;
+    width: 245px;
+    height: 45px;
+    border: #c6c6c6 1px solid;
+}
+.inp label{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.inp button{
+    margin-left: 70px;
+    width: 70px;
+    height: 35px;
+    font-size: 18px;
+    color:snow;
+    background-color: #C6C6C6;
+}
+.inp p{
+    background-color:#C6C6C6 ;
+    margin-top: 60px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+input.error {
+    border: 1px solid red;
+  }
+  
+  label.error {
+    color: red;
+  }
+  
+  .log_error {
+    color: red;
+    width: 100%;
+    display: block;
+    margin-left: 90px;
+
+  }
+  .hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // 尾部
+.foo{ background: #222222;
+			
+}
+.foo .foot{
+    height: 214px;
+}
+.foot   ul {
+    float: left;
+/* 	background-color: pink; */
+    margin: 35px 60px 0px 0px;
+    overflow: hidden;
+}
+.foot   ul li{
+    font-size: 16px;
+    color: #999999;
+    line-height: 24px;
+    height: 24px;
+}
+.foot ul .li{
+    margin-bottom: 24px;
+    color: white;
+}
+
+.foot dl{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 17px;
+    height: 17px;
+    text-align: center;
+}
+.foot dt img{
+    width: 150px;
+    height: 150px;
+}
+.foot dd{
+    color: #fff;
+}
+.foot p{
+    margin-top: 60px;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+}
+
